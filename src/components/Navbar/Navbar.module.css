@@ -1,0 +1,23 @@
+.nav {
+  grid-area: nav;
+  position: sticky;
+  top: 50px;
+  height: calc(100vh - 50px);
+  background-color: white;
+  box-shadow: 0 0 7px rgba(180, 180, 180, 0.7);
+}
+
+.item a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.item a.activeLink {
+  color: firebrick;
+}
+
+@media (max-width: 767px) {
+  .nav label {
+    display: none;
+  }
+}

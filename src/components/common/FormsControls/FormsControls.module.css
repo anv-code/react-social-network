@@ -1,0 +1,95 @@
+.formControl {
+  width: 580px;
+}
+
+.formControl h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.formInput input {
+  height: 32px;
+  width: 100%;
+  padding: 0 7px;
+  border: 1px solid #a4a4a4;
+  border-radius: 2px;
+}
+
+.formInput input:focus {
+  outline: none !important;
+  border: 1px solid #1890ff;
+}
+
+.formControl.error input,
+.formControl.error textarea {
+  border: solid red 1px;
+}
+
+.formControl.error span {
+  color: red;
+  position: absolute;
+}
+
+.formSummaryError {
+  color: red;
+}
+
+.formSummaryErrorWrap {
+  height: 33px;
+}
+
+.rememberMe {
+  margin-bottom: 25px;
+}
+
+.rememberMe input {
+  width: 15px;
+}
+
+.rememberMe span {
+  position: absolute;
+  line-height: 1.45;
+  margin-left: 21px;
+}
+
+.buttonSubmit {
+  width: 100%;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  height: 32px;
+  border-radius: 2px;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #1890ff;
+}
+
+.buttonSubmit:hover {
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0.8;
+}
+
+
+@media (max-width: 880px) {
+  .formControl {
+    width: 460px;
+  }
+}
+
+@media (max-width: 767px) {
+  .formControl {
+    width: 440px;
+  }
+}
+
+@media (max-width: 600px) {
+  .formControl {
+    width: 340px;
+  }
+}
+
+@media (max-width: 480px) {
+  .formControl {
+    width: 250px;
+  }
+}

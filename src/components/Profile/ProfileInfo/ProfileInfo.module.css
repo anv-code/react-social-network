@@ -1,0 +1,151 @@
+.profileBlock {
+  display: flex;
+  padding: 10px;
+}
+
+.profilePhoto {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.profilePhoto img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  border-radius: 100px;
+}
+
+.profileOwner {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileOwner input[type="file"] {
+  display: none;
+}
+
+.profileOwner label {
+  cursor: pointer;
+  color: #a4a4a4;
+}
+
+.profileOwner label:hover {
+  color: #1890ff;
+  transition: 0.3s;
+}
+
+.profileOwner button {
+  color: #a4a4a4;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+
+.profileOwner button:hover {
+  color: #1890ff;
+  transition: 0.3s;
+}
+
+.descriptionBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.profileData {
+  padding: 20px 50px;
+}
+
+.profileDataForm input {
+  width: 300px;
+}
+
+.profileDataFormButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.profileDataName b {
+  font-size: 1.5em;
+}
+
+.profileDataRow input {
+  margin-bottom: 14px;
+}
+
+.profileDataRow p {
+  margin-bottom: 0;
+}
+
+.profileStatusOwner {
+  color: #a4a4a4;
+  cursor: text;
+  height: 32px;
+}
+
+.profileStatusOwner span:hover {
+  color: #1890ff;
+  transition: 0.3s;
+  height: 40px;
+}
+
+.profileStatus {
+  color: #a4a4a4;
+  height: 32px;
+}
+
+.contacts {
+  margin: 14px 0;
+}
+
+@media (max-width: 1280px) {
+  .app-wrapper-content {
+    max-width: 740px;
+  }
+}
+
+@media (max-width: 992px) {
+  .profilePhoto {
+    padding: 5px;
+  }
+
+  .profileData {
+    padding: 5px 5px 5px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profileBlock {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .profileData {
+    padding: 5px 5px;
+  }
+
+  .profilePhoto {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profileBlock {
+    padding: 0;
+  }
+
+  .profilePhoto {
+    padding: 10px 0;
+  }
+
+  .profileData {
+    padding: 5px 5px;
+  }
+}

@@ -1,0 +1,42 @@
+.postsBlock {
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postsBlock h2 {
+  margin-bottom: 0;
+}
+
+.addNewPostForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addNewPostForm button {
+  margin: 20px auto;
+}
+
+.posts {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .postsBlock {
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .postsBlock {
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .postsBlock {
+    padding: 15px 5px;
+  }
+}

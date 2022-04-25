@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  grid-area: header;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 7px rgba(180, 180, 180, 0.7);
+  z-index: 1;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.headerPreloader {
+  padding-top: 5px;
+}
+
+.loginBlock a {
+  text-decoration: none;
+}
+
+.logoBlock {
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  height: 42px;
+  width: 42px;
+  background: url('../../assets/images/logo192.png') no-repeat;
+  background-size: 42px 42px;
+  margin-right: 10px;
+}
+
+.button a {
+  transition: 0.3ms;
+}
+
+
